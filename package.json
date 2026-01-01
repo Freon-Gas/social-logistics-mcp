@@ -1,0 +1,25 @@
+{
+  "name": "social-logistics-mcp",
+  "version": "1.0.0",
+  "description": "그룹 모임 일정 조율 AI 에이전트 MCP Server",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0",
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.17"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
